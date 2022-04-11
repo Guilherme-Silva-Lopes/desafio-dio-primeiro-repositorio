@@ -98,11 +98,6 @@ AULA 6 - CHAVE SSH E TOKEN
 
 Chave SSH: é uma forma de estabelecer uma conecção segura e encriptada entre duas máquinas.
 
-Comando para criar chave SSH através do GIT Bash: 
-ssh-keygen -t ed25519 -C guifaceads@gmail.com
-
-Token de acesso pessoal
-Meu Token: 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
 ..
 ..
 

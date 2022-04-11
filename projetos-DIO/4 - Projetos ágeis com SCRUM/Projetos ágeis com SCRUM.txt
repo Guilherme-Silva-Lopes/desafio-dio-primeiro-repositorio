@@ -1,0 +1,241 @@
+AULA 1 - GESTÃO DE PROJETOS E AO SCRUM
+
+Conceitosd basicos
+
+Desafios do desenvolvimento de software
+
+Objetivos de negócio - Processo de Desenvolvimento:
+- Concepção
+- Análise & Design
+- Desenvolvimento
+- Testes
+- Implantação
+
+"O Proincípio de Pareto também se aplica ao desenvolvimento de software, onde 20% das funcionalidades costumam gerar 80% ou mais do beneficio esperado."
+
+Gestão de Projetos: Tradicional x Ágil
+
+Tradicional (Waterfall): Só permite que o projeto avance quando uma fase esta inteiramente completa.
+
+Escopo definido na fase inicial do projeto (Preditivo);
+Projeto é controlado por fases e marcos;
+Clliente só vê o software funcionando na fase final do Projeto;
+Resistencia a mudanças.
+
+Ágil: Software construído por partes (incremental) e cada parte executa-se em um ciclo (interativo).
+
+Escopo definido ao longo do projeto (Adaptativo);
+Projeto é controlado por funcionalidades entregues;
+Cliente pode ver parte do software funcionando na parte inicial do projeto;
+Mudanças constantes de acordo com feedbacks continuos..
+
+"Em projetos tradicionais (waterfal), você corre o risco de descobrir que estava errado depois de meses. Com o SCRUM, você descobre que estava errado em no máximo 30 dias."
+
+O que é ser ágil?
+R: Ter a capacidade de responder rapidamente à mudanças.
+- rapidez (mudança) e desembaraço;
+Fazer coisas complexas de forma simples;
+- Equipe comprometida com os objetivos;
+- Maior valor para o cliente.
+
+"Ágil é diferente de rápido!"
+
+SCRUM
+
+-SCRUM é um dos frameworks de gerenciamento de projetos ágeis;
+- Projetos usando equipes pequenas e multidisciplinares produzem os melhores resultados.
+
+Pilares do SCRUM: Transparencia, Adaptação e Inspeção
+
+- Conversar mais e escrever menos;
+- Demonstrar o software constantemente aos usuários e obter feedbacks constantes;
+- Requisistos mudam ao longo do tempo;
+- Aprender progressivamente com o uso do software.
+
+Razões para adotar o SCRUM:
+
+- Desenvolvido e entregue em partes menores (2 a 4 semanas), com constante feedback dos usuários;
+- Melhor gerenciamento de riscos (Redução de incertezas);
+- Comprometimento, motivação e transparencia de equipe (Daily Meeting);
+- Maior valor para o negócio 9Priorização do Backlog);
+- Usuários envolvidos durante todo o ciclo;
+- Aplicação das lições aprendidas (melhoria continua).
+
+Características do time SCRUM:
+
+- Equipes capazes de se auto-orgnizarem;
+- As tarefas são do time e todos são responsáveis;
+- Forte comprometimento com os resultados.
+
+Por que as startups utilizam frameworker ágil?
+R: As Startups costumam seguir a ideia do Minimum Viable Prduct (Mínimo produto viável). Que se baseia na ideia de entregar um sistema que seja minimamente utilizável e depois ir evoluindo através dos feedbacks fornecidos.
+..
+..
+AULA 2 - PAPÉIS E RESPONSABILIDADES DE CADA UM DO TIME
+
+Produc Owner (PO), Dono do produto:
+
+- Representante da área de Negócios;
+- PO não é um comitê;
+- Define as funcionalidades do software (Product Backlog);
+- Prioriza as funcionalidades de acordo com o valor do negócio;
+- Garante que o time de desenvolvimento entenda os itens do Backlog no nível necessário.
+
+SCRUM Master (SM)
+
+- Garantir o uso correto SCRUM;
+- Scrum Master não é gerente de projetos;
+- Age como facilitador;
+- Auxilia o Profuct Owner no planejamento e estimativas do backlog;
+- Auxilia a equipe a remover impedimentos;
+- Treina o time em autogerenciamento e interdisciplinaridade. 
+
+Time de Desenvolvimento (DEV) possui de 3 a 9 pessoas
+
+- Possui habilidades suficientes para desenvolver, testar, criar e desenhar, ou seja, tudo que for necessário para entregar o software funcionando.  
+..
+..
+AULA 3 - CERIMÔNIAS DO SCRUM
+
+O que é ima time Box?
+R: É o tempo máximo para fazer uma cerimônia ou Sprint
+
+Sprint = corrida, arrancada
+R: É o principal evento do SCRUM
+
+Duração de 1 Sprint:
+- 30 dias corridos (ou menos)
+
+Composição de uma Sprint:
+
+- Planejamento da Sprint;
+- Reuniões Diárias (Daily Meeting);
+- Revisão da Sprint (Review);
+- Retrospectiva da Sprint.
+..
+..
+AULA 4 - GESTÃO DE PROJETOS TRADICIONAL X ÁGIL
+..
+..
+AULA 5 - PAPÉIS E RESPONSABILIDADES - PRODUCT OWNER
+
+Quem é o Product Owner?
+R: O Product Owner (PO) representa o profissional que tem a visão do que será desenvolvido, as necessidades a serem atendidas, o público que vai utilizar os serviços e os objetivos a serem alcançados.
+
+Release Planning
+R: Liberação ou lançamento de software (em inglês: release) é o lançamento de nova versão oficial de produto de software. Cada vez que um produto de software é criado ou modificado, o fabricante e seus desenvolvedores decidem sobre como distribuir ou o novo produto ou a modificação às pessoas que o utilizam.
+
+Existem 2 tipos de Release Planning:
+
+- Release Planning de Múltiplas Squads;
+R: Consistem em vários times de dev que ao final da spring devem unir as partes
+
+- Release Planning de Projeto.
+R: O PO possui uma demanda muito grande e é preciso criar em várias histórias.
+
+..
+..
+AULA 6 - ANALISANDO ESCOPO E DEFININDO PRIORIDADES
+
+Product Backlog
+
+O Product Backlog é composto por Épicos e Estórias
+
+Épicos = Incremento sem muito detalhamento, ajuda a te direcionar dos caminhos que deve seguir.
+
+Estória = Detalhamento dos épicos, um épico normalmente se divide em várias estórias, onde ficam descritos o que deve acontecer e suas regras de negócio.
+
+Escrevendo uma Estória
+
+- Nome da Estória;
+- Descrição da Estória (Eu, Como, Quero, Quando);
+- Regras de Negócio (Separar Regras de Front-end de regras de Back-end);
+- Tela (LInk ou imagem das telas a serem desenvolvidas);
+- KPI (Quais os objetivos/valor a estória precisa atingir);
+- Tagueamento (Como a estória será "Tagueada" para poder mensurar os KPI);
+- Critérios de Aceite (Qual o passo a passo de todos os caminhos felizes possíveis a estória deve cumprir para que ela seja considerada aceita).
+
+Riscos Positivos
+
+Positivos = Muito ignorado nos projetos, porém um dos fatores de maiores ganhos no desenvolvimento de sistemas.
+
+Negativos = Itens que podem afetar o prazo, custo ou escopo de um projeto de maneira que pode acabar inviabilizando-o.
+..
+..
+AULA 7 - PAPEL DO PO NA TRANSFORMAÇÃO DIGITAL
+
+O que é a Transformação Digital?
+R: A Transformação Digital é um processo no qual as empresas fazem uso da tecnologia para melhorar o desempenho, aumentar o alcance e garantir resultados melhores.
+É uma mudança estrutural nas organizações dando um palel essencial para a recnologia.
+..
+..
+AULA 8 - APRENDA SOBRE OS CONCEITOS E PLANEJAMENTO DE TAREFAS
+
+Estória vs Tarefa
+
+"A Estória é um conjunto de tarefas e o Épico é um conjunto de Estórias."
+
+Estória é sempre a nivel de negócio
+
+O que é um critério de aceite?
+R: É uma lista de critérios que precisam ser alcançados para que a User Story atenda os requisitos do usuário e seja aceita pelo Product Owner
+
+Os critérios de aceitação têm o objetivo de: definir limites para as user stories. Ajudar o PO a detalhar em alto nível o que é necessário para entregar valor ao cliente.
+
+ Planning Poker?
+R: É uma atividade de mensuração do esforço e complexidade das tarefas e estorias.
+
+Cliente/Stakeholder
+
+O Stakeholder é uma pessoa ou um grupo que legitimiza as ações de uma organização e que tem um papel direto ou indireto na gestão e resultados dessa mesma organização. Desta forma, o Stakeholder pode ser afetado positivamente ou negativamente, dependendo das suas politicas e forma de atuação.
+
+Alguns exemplos de stakeholder de uma empresa podem ser os seus funcionários, gestores, gerentes, proprietários, fornecedores, concorrentes, ONGs, clientes, o Estado, credores, sindicatos e diversas outras pessoas ou empresas que estejam relacionadas com uma determinada ação ou projeto.
+..
+..
+
+AULA 9 - ROTINAS DE UM TIME ÁGIL
+
+Daily: A daily é feita em pé e possui duração de 15 min e não requer a presença do PO ou do Scrum Master. 
+
+3 perguntas mágicas da Daily:
+
+1. O que eu fiz ontem?
+2. O que eu fiz hoje?
+3. Se possuo algum impedimento?
+
+Retrospectiva: Acontece apenas uma vez na sprint, após a conclusão da sprint. Nessa cerimônia, a presença do PO é muito importante, mas não é obrigatória.
+
+Pontos discutidos na Retrospectiva:
+
+1. O que foi bom?
+2. O que foi ruim?
+3. O que se deve melhorar e oque não se deve fazer na sprint?
+4. O que podemos tentar fazer na próxima sprint
+
+Quem tem participação obrigatória na daily?
+R: Time de dev.
+
+Quem tem participação obrigatória na Retro?
+R: O time dev e o SM
+
+Refinamento
+R: É uma cerimonia não oficial do SCRUM porem muito utilizad para que o time juntamente com o PO discuta como será o proximo sprint
+
+Tem a finalidade de aumentar o entendimento da demanda por parte do time, melhorando a aqualidade do projeto e o retorno.
+
+A presença de todo time SCRUM é obrigatória
+
+O refinamento acontece um passo antes da Planning, porem após o final da spring anterior. Geralmente antes da retro e da review
+
+Review
+
+Quem apresenta essa cerimonia é o time de dev, neste momento eles tem a possibilidade de mostrar o trabalho que cada um realizou na sprint anterior.
+
+O objetivo da review é verificar se a demanda agrega valor ao negócio
+
+
+
+
+
+São convidados todos os interessados no projeto.
+

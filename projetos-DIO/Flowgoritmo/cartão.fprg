@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Guilherme"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-04-08 11:36:35 "/>
+        <attribute name="created" value="R3VpbGhlcm1lO0RFU0tUT1AtM0RSOEI5MjsyMDIyLTA0LTA4OyIxMDozMjozMSAiOzMxMjY="/>
+        <attribute name="edited" value="R3VpbGhlcm1lO0RFU0tUT1AtM0RSOEI5MjsyMDIyLTA0LTA4OyIxMTozNjozNSAiOzE7MzI0Mw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="clientname" type="String" array="False" size=""/>
+            <declare name="cartao" type="Boolean" array="False" size=""/>
+            <declare name="numero" type="String" array="False" size=""/>
+            <input variable="clientname"/>
+            <input variable="cartao"/>
+            <if expression="cartao">
+                <then>
+                    <input variable="numero"/>
+                    <output expression="&quot;Compra realizada&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Boleto gerado, aguardando pagamento&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

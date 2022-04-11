@@ -1,0 +1,166 @@
+AULA 1 - ENTENDENDO O QUE É GIT E GITHUB
+
+1 - Controle de versão
+2 - Armazenamento em nuvem
+3 - Trabalho em equipe
+4 - Melhorar seu código
+5 - Reconhecimento
+
+O que é Git?
+R: Git é um sistema de controle de versão.
+..
+..
+
+AULA 2 - COMANDOS BÁSICOS PARA UM BOM DESEMPENHO NO TRMINAL
+
+O que vamos aprender?
+- Mudar de pastas
+- Listar as pastaas
+- Criar pastas/arquivos
+- Deletar pastas/arquivos
+
+Windows
+- cd
+- dir
+- mkdir
+- del/rmdir 
+
+dir (Windows): Listar, se situar dentro de um sistema operacional e entender em qual local estamos.
+
+cd (change directory): Este comando permite que a gente navegue entre as pastas.
+observação: "cd .." volta a pasta anterior.
+
+cls (clear scream): Comando para limpar a tela no Windows.
+
+mkdir (make directory): Comando para criar pastas.
+
+echo: Comando que printa de volta no terminal uma frase
+observação: o simbolo ">" redireciona o fluxo paraum lugar desejado.
+
+del: Deleta arquivos dentro de uma pasta, mas não o repositório em si.
+
+rmdir (dir remove directory): Deleta a pasta com todos os arquivos dentro.
+
+ls: listar pastas
+
+crtl + l: Comando do git para limpar
+
+ls -a: mostra arquivos ocultos
+
+mv: Comando para mover arquivos
+exemplo: mv "nome do arquivo" ./"pasta desejada"/
+..
+..
+
+AULA 3 - REALIZANDO A INSTALAÇÃO DO GIT
+..
+..
+
+AULA 4 - TÓPICOS FUNDAMENTAIS PARA ENTENDER O FUNCIONAMENTO DO GIT
+
+- SHA1 
+- Objetos fundamentais
+- Sistema distribuído
+- Segurança
+
+A sigla SHA significa Secure Hash Algorithm (Algoritmo de Hash Seguro), é um conjunto de funções hash criptog´raficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+Observação: É um algoritmo de encriptação, ou seja, ele vai pegar os seus arquivos e vai embaralha-lo. (A encriptação gera conjunto de haracteres identificador de 40 dígitos).
+
+"É uma forma curta de representar um arquivo."
+Exemplo:
+1 echo "Ola mundo"  / openssl sha1
+2 > (stdin)= f9fc856e559b950175f2b7cd7dad61facbe58e7b
+..
+..
+AULA 5 - OBJETOS INTERNOS DO GIT
+
+BLOBS
+TREES
+COMMITS
+
+Objetos fundamentais (Blobs) - A Blob é o bloco base de composição
+Exemplo Blobs:
+
+1 echo ''conteudo'  /  git hash-object --stdin
+2 > fc32e91b26csa51d2sd321d3a2s1d2s1d2as31da2s
+3
+4 echo -e 'conteudo'  /  openssl sha1
+5 > 65b2d212sd32as1d32s1d32sa1d32as1d3as2d1a13sd21
+
+Objetos fundamentais (\tree) - As Trees armazenam Blobs
+"Uma Tree pode apontar tanto para um Blob, quanto para outra Tree"
+
+Objetos fundamentais (Commit) - É o objeto que vai juntar tudo e dar sentido ao que você esta fazendo
+..
+..
+
+AULA 6 - CHAVE SSH E TOKEN
+
+Chave SSH: é uma forma de estabelecer uma conecção segura e encriptada entre duas máquinas.
+
+Comando para criar chave SSH através do GIT Bash: 
+ssh-keygen -t ed25519 -C guifaceads@gmail.com
+
+Token de acesso pessoal
+Meu Token: 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
+..
+..
+
+AULA 7 - INICIANDO O GIT E CRIANDO UM COMMIT
+
+Primeiros comandos com o Git
+
+- iniciar o Git: git init
+
+- iniciar o versionamento: git add
+
+- criar um commit: git commit
+
+- mostra os status de um arquivo: git status
+
+- deixar uma mensagem: git commit -m "mensagem desejada
+"
+
+git add *: pega tudo que esta modificado e adiciona pro staged 
+
+Criando arquivo md (markdown): Crie um arquivo de texto com a terminação ".md"
+..
+..
+
+AULA 8 - PASSO A PASSO NO CICLO DE VIDA
+
+Ciclo de vida dos arquivos dentro do Git
+
+Arquivos Tracked: São os arquivos que o Git tem conhecimento
+
+Arquivos Untracked: São os arquivos que o Git ainda não tem ciencia sobre a existencia.
+
+Unmodified: Arquivos que ainda não foram modificados.
+
+Modified: Arquivos que ja sofreram modificação.
+
+Stage: São os arquivos que estão se preparando para fazer parte de outro tipo de agrupamento.
+..
+..
+
+AULA 8 - TRABALHANDO COM O GITHUB
+
+Importar repositório local para o GitHub: git remote add origin "url do repositório"
+
+Depois empurrar: git push origin main/ou master
+..
+..
+
+AULA 9 - COMO OS CONFLITOS ACONTECEM NO GITHUB E COMO RESOLVÊ-LOS
+
+Puxar nova versão de código: git pull origin main
+
+
+Como baixar um repositorio do github pra minha maquina:
+git clone "url do repositório a ser baixado/clonado"
+
+Mostra os repositórios remotos de onde foram baixados os repositorios no nosso local: 
+git remote -v
+
+
+
